@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bieber Fanpage</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Justin Bieber Fanpage</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Welcome to the Justin Bieber Fanpage!</h2>
+            <p>Explore everything about your favorite artist.</p>
+        </section>
+        <!-- <section class="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="photo">
+                <img src="images/justin1.jpg" alt="Justin Bieber">
+                <img src="images/justin2.jpg" alt="Justin Bieber">
+                <img src="images/justin3.jpg" alt="Justin Bieber">
+                <img src="images/justin4.jpg" alt="Justin Bieber">
+                <img src="images/justin5.jpg" alt="Justin Bieber">
+                <img src="images/justin6.jpg" alt="Justin Bieber">
+            </div>
+        </section> -->
+        <section class="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="slideshow-container">
+                <div class="slide fade">
+                    <img src="images/justin1.jpg" style="width:100%" alt="Justin Bieber 1">
+                </div>
+                <div class="slide fade">
+                    <img src="images/justin2.jpg" style="width:100%" alt="Justin Bieber 2">
+                </div>
+                <div class="slide fade">
+                    <img src="images/justin3.jpg" style="width:100%" alt="Justin Bieber 3">
+                </div>
+                <div class="slide fade">
+                    <img src="images/justin4.jpg" style="width:100%" alt="Justin Bieber 4">
+                </div>
+                <div class="slide fade">
+                    <img src="images/justin5.jpg" style="width:100%" alt="Justin Bieber 5">
+                </div>
+                <div class="slide fade">
+                    <img src="images/justin6.jpg" style="width:100%" alt="Justin Bieber 6">
+                </div>
+            </div>
+            <br>
+            <!-- <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div> -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+
+        </section>
+
+        <section class="videos">
+            <h2>Popular Videos</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Justin Bieber Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/kffacxfA7G4" title="Justin Bieber Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="bio">
+            <h2>About Justin Bieber</h2>
+            <p>Justin Bieber is a Canadian singer, songwriter, and actor. He gained fame with his debut album, "My World 2.0", in 2010, and has since become one of the world's best-selling music artists.</p>
+        </section>
+        <section class="songs">
+            <h2>Most Famous Songs</h2>
+            <ul>
+                <li>Baby</li>
+                <li>Sorry</li>
+                <li>Love Yourself</li>
+                <li>What Do You Mean?</li>
+            </ul>
+        </section>
+        <section class="social-media">
+            <h2>Follow Justin Bieber on Social Media</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/justinbieber" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/justinbieber" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com/user/kidrauhl" target="_blank">YouTube</a></li>
+                <li><a href="https://www.facebook.com/justinbieber" target="_blank">Facebook</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Follow our fan group!</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

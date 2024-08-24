@@ -1,0 +1,188 @@
+/* Basic reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes animateBackground {
+    0% { background-color: #ff7e5f; }
+    50% { background-color: #feb47b; }
+    100% { background-color: #ff7e5f; }
+}
+
+/* body {
+    animation: animateBackground 10s ease infinite;
+    color: #fff;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 20px;
+    animation: animateBackground 10s ease infinite;
+    /* color: #fff; */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.gallery h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.photo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.photo img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    height: 170px; /* Adjust height as needed */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.bio {
+    margin-top: 20px;
+}
+
+.bio h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.songs {
+    margin-top: 20px;
+}
+
+.songs h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.songs ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.songs ul li {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-media ul li {
+    margin-bottom: 10px;
+}
+
+.social-media ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
