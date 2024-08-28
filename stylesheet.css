@@ -36,6 +36,15 @@ header h1 {
     font-size: 2em;
 }
 
+.home-link {
+    color: #0a0200; 
+}
+
+.songs-link {
+    color: #000306;
+}
+
+
 main {
     max-width: 800px;
     margin: 20px auto;
