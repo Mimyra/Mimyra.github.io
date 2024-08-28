@@ -37,10 +37,10 @@ header h1 {
 }
 
 .home-link:visited {
-    color: #090200;} /* Ensure visited links remain the same color */
+    color: white;} /* Ensure visited links remain the same color */
 
 .song-link:visited {
-    color: #090200;} /* Ensure visited links remain the same color */
+    color: white;} /* Ensure visited links remain the same color */
 
 main {
     max-width: 800px;
