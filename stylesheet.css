@@ -27,7 +27,7 @@ body {
 
 header {
     background-color: white;
-    color: black;
+    color:black;
     text-align: center;
     padding: 10px 0;
 }
@@ -37,10 +37,10 @@ header h1 {
 }
 
 .home-link:visited {
-    color: black;} /* Ensure visited links remain the same color */
+    color:black;} /* Ensure visited links remain the same color */
 
 .song-link:visited {
-    color: black;} /* Ensure visited links remain the same color */
+    color:black;} /* Ensure visited links remain the same color */
 
 main {
     max-width: 800px;
