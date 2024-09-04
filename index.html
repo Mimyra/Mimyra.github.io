@@ -17,7 +17,36 @@
             border-radius: 8px;
         }
         
-       
+        .video-container{
+            position: relative;
+            width: 40%; /* Adjust width as needed */
+            height: 20%;
+            padding-bottom: 30%; /* 16:9 aspect ratio (height / width) */
+            
+        }
+
+        .video-container iframe {
+            position: absolute;
+            width: 100%;
+            height: 90%;
+        }
+
+        .about-me{
+            border:2px solid black;
+            padding:5px
+            
+        }
+        
+        .about-me h3{
+            text-align: left;
+            color:brown;
+            text-decoration: underline;
+            font-size: large;
+            
+        }
+        
+
+
     </style>
 </head>
 <body>
@@ -28,7 +57,20 @@
     </header>
 
     <section>
-        <h2>Hi, I'm Namyra! Welcome to my page!</h2>
+        <h2>Hi! Welcome to my page!</h2>
+    </section>
+
+    <section class="about-me">
+    <h3>About Me</h3>
+    <p>I'm Namyra, a Y2 IS student. I love surrounding myself in nature and I do this art & craft called paper quilling.</p>
+    </section>
+
+    <section>
+        <h3>Guess my favourite travel destination!</h3>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/BOpcdmjc7PA?autoplay=1&mute=1"> <!--add autoplay=1 and mute=1 parameters to the video url after the ?-->
+            </iframe>
+        </div>
     </section>
 </body>
 </html>
